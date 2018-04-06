@@ -1,0 +1,235 @@
+/**
+ * This file will be overwritten when the Bootstrap Framework source files
+ * are compiled using the SASS CSS pre-processor.
+ */
+.top-nav-bar {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  content-align: center;
+  margin-top: 10px; }
+
+.logo-on-top {
+  position: relative;
+  background-image: url("../images/logo-open.png");
+  width: 160px;
+  min-height: 50px;
+  float: left; }
+
+.top-nav-links {
+  position: relative;
+  margin: 10px 20px;
+  color: #CACACA;
+  float: right;
+  font-size: 18px;
+  border-bottom: 1px solid #CACACA; }
+
+.top-nav-links:hover {
+  text-decoration: none;
+  position: relative;
+  margin: 10px 20px;
+  color: #369af8;
+  float: right;
+  font-size: 18px;
+  border-bottom: 1px solid #369af8; }
+
+.main-content {
+  position: relative;
+  margin-top: 80px; }
+
+.intro-text{
+  float: right;
+}
+
+.app-on-phone {
+  position: relative;
+  width: 353px;
+  min-height: 500px;
+  background-size: cover;
+  float: left;
+  max-width: 100%; }
+
+.top-heading-name {
+  margin-top: 80px;
+  position: relative;
+  text-align: left;
+  color: #369af8;
+  font-weight: 200; }
+
+.top-para {
+  margin-top: 20px;
+  position: relative;
+  text-align: left;
+  color: #767A7E; }
+
+.icons-play-app {
+  position: relative;
+  float: right;
+  margin-top: 40px; }
+
+.get-on-play {
+  width: 165px;
+  height: 52px;
+  margin-left: 2px; }
+
+.get-on-app {
+  width: 160px;
+  height: 50px;
+  float: left;
+  margin-left: 25px; }
+
+.sponsor{
+  margin-left: 50px;
+}
+
+.feature-sponsor{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.webappexample{
+  width: 100%;
+  margin-left: 50px;
+  background-color: #f5f5f5;
+}
+
+.webappcontent{
+ background-color: #f5f5f5;
+}
+
+.availableon{
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.featured-in {
+  position: relative; }
+
+.featured-in-heading {
+  position: relative;
+  text-align: center;
+  color: #369af8;
+  font-weight: 350;
+  margin-top: 50px; }
+
+.featred-small-line {
+  margin-top: -2px;
+  border: 1px solid #369af8;
+  width: 4%; }
+
+.featured-in-background {
+  background-color: #F8F8F8;
+  height: auto; }
+
+.brand-featured-in {
+  position: relative;
+  padding: 100px 50px; }
+
+.extra-content {
+  margin-top: 100px; }
+
+.extra-content-photo {
+  position: relative;
+  background-image: url("../images/phone.png");
+  width: 353px;
+  min-height: 500px;
+  max-width: 100%;
+  float: right; }
+
+.extra-content-photo1 {
+  position: relative;
+  background-image: url("../images/phone.png");
+  width: 353px;
+  min-height: 500px;
+  max-width: 100%;
+  float: left; }
+
+.adjustments-last {
+  margin-top: 40px; }
+
+.adjustments-last1 {
+  margin-top: 20px; }
+
+@media screen and (max-width: 1100pxpx) and (min-width: 120px) {
+  .extra-content-photo {
+    position: relative;
+    background-image: url("../images/phone.png");
+    width: 353px;
+    min-height: 500px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .extra-content-photo1 {
+    position: relative;
+    background-image: url("../images/phone.png");
+    width: 353px;
+    min-height: 500px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto; } }
+.play-app-branding {
+  position: relative;
+  margin-top: 80px; }
+
+.best-in {
+  position: relative;
+  text-align: center;
+  margin-top: 40px; }
+
+.best-in-images {
+  margin: 20px;
+  width: 130px;
+  height: 90px; }
+
+.grey-bg {
+  background-color: #f7f7f7; }
+
+.best-in-heading {
+  margin-top: 50px;
+  color: #369af8;
+  text-align: center;
+  font-weight: 350; }
+
+.best-in-sub {
+  color: #369af8; }
+
+.cont-head-align {
+  text-align: center;
+  font-size: 22px; }
+
+.cont-head-align2 {
+  margin-top: 25px;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.footer {
+  position: relative;
+  bottom: 0;
+  text-align: left;
+  font-size: 10px; }
+
+.dgrey-bd {
+  background-color: #5c5c5c; }
+
+.footer-links {
+  text-decoration: none;
+  color: #fff;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px; 
+  font-size: 10px;}
+
+.footer-list {
+  list-style-type: none; }
+
+body {
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */

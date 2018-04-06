@@ -1,0 +1,43 @@
+name: OpenWebApp
+type: profile
+core: '8.x'
+description: 'Open Social install profile.'
+# core: '8.x'
+# version: '8.x-1.12'
+# project: social
+
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+themes:
+  - seven
+  - bootstrap
+  - openwebapp1
+features: true
+distribution:
+  name: Open Web App
