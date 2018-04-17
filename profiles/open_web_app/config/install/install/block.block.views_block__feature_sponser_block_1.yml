@@ -1,0 +1,30 @@
+uuid: 7571d49a-83d1-4cd8-8187-1acf23c54c1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.feature_sponser
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__feature_sponser_block_1
+theme: bootstrap
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:feature_sponser-block_1'
+settings:
+  id: 'views_block:feature_sponser-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

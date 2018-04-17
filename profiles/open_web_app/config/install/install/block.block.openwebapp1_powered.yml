@@ -1,0 +1,22 @@
+uuid: 7510f631-c91d-48d1-a765-702751655713
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: openwebapp1_powered
+theme: openwebapp1
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

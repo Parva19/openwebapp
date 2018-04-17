@@ -1,0 +1,8 @@
+uuid: 1adcc81c-297d-40f6-b9e8-f6d99558b78a
+langcode: en
+status: true
+dependencies: {  }
+id: about
+label: about
+revision: 1
+description: 'This block is use to tell about the  web site.'

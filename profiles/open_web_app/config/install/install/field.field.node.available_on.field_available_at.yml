@@ -1,0 +1,21 @@
+uuid: e706dc74-bfba-4e77-abcc-cb3c2fdc326c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_at
+    - node.type.available_on
+  module:
+    - text
+id: node.available_on.field_available_at
+field_name: field_available_at
+entity_type: node
+bundle: available_on
+label: 'Available at'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

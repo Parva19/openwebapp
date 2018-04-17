@@ -1,0 +1,8 @@
+uuid: 1e7307f7-7fa5-4e9b-92ba-2dc44d027ae0
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: image
+revision: 1
+description: 'This block contains front image of site.'

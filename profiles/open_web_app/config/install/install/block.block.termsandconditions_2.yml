@@ -1,0 +1,25 @@
+uuid: 371f2a99-1e5c-41a4-8b27-5c89ca0a1353
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_items:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: termsandconditions_2
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+settings:
+  id: 'block_content:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+  label: 'Terms And Conditions'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

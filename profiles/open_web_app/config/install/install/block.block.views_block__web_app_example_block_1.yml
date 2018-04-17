@@ -1,0 +1,24 @@
+uuid: e0fe9020-57a7-424f-8b03-26a32e4ee8f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.web_app_example
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__web_app_example_block_1
+theme: bartik
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:web_app_example-block_1'
+settings:
+  id: 'views_block:web_app_example-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

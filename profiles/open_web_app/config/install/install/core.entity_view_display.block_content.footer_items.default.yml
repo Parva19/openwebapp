@@ -1,0 +1,12 @@
+uuid: 3c5fd7c5-c03c-4f90-bb7f-13209dcf6e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_items
+id: block_content.footer_items.default
+targetEntityType: block_content
+bundle: footer_items
+mode: default
+content: {  }
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: c3363137-5e03-41b8-adbc-c1f1f14f9c56
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.web_app_example
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__web_app_example_block_1_2
+theme: bootstrap
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:web_app_example-block_1'
+settings:
+  id: 'views_block:web_app_example-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

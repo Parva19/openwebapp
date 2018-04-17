@@ -1,0 +1,25 @@
+uuid: e65ca0b5-2e42-4463-8b0f-ffbb3a26c4d0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_items:43b71dfc-dcd0-4de3-9416-4dca3f37efc1'
+  module:
+    - block_content
+  theme:
+    - openwebapp1
+id: editorialpolicy
+theme: openwebapp1
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:43b71dfc-dcd0-4de3-9416-4dca3f37efc1'
+settings:
+  id: 'block_content:43b71dfc-dcd0-4de3-9416-4dca3f37efc1'
+  label: 'Editorial Policy'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

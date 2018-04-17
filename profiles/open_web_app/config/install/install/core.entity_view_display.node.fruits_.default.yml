@@ -1,0 +1,59 @@
+uuid: 3bcf9761-cafe-4ef9-956b-431cd33b703c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fruits_.body
+    - field.field.node.fruits_.field_fruit_image
+    - node.type.fruits_
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_fruit_image
+      right:
+        - body
+id: node.fruits_.default
+targetEntityType: node
+bundle: fruits_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: right
+  field_fruit_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: left
+hidden:
+  links: true

@@ -1,0 +1,22 @@
+uuid: 4ac58816-07dc-4cf4-8064-99fbfe31cf9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fruits_
+  module:
+    - text
+id: node.fruits_.body
+field_name: body
+entity_type: node
+bundle: fruits_
+label: 'Fruit Information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

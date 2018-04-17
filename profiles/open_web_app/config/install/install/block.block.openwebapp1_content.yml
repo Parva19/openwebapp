@@ -1,0 +1,22 @@
+uuid: d66b52b0-cab9-4d12-b47a-4019c53670e6
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: openwebapp1_content
+theme: openwebapp1
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 84fdc3d2-20bf-4a0a-83cc-9363b76a6a08
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+  module:
+    - block_content
+    - system
+  theme:
+    - openwebapp1
+id: openwebapp1_about_fruit_2
+theme: openwebapp1
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+settings:
+  id: 'block_content:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+  label: 'Introduction text'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

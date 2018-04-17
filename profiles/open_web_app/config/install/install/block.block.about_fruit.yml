@@ -1,0 +1,31 @@
+uuid: 90da4e76-7b30-44a0-981c-6b7302dbd042
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: about_fruit
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+settings:
+  id: 'block_content:abd94b9d-f41d-4e70-879f-71f4da4ce4e8'
+  label: 'About Website'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

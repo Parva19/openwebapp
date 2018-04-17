@@ -1,0 +1,24 @@
+uuid: 851a808b-8a6a-4bf4-9be9-d6263fbe30c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trial1
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__trial1_block_1
+theme: bartik
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:trial1-block_1'
+settings:
+  id: 'views_block:trial1-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

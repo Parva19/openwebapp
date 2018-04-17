@@ -1,0 +1,71 @@
+uuid: d6d320fa-d812-47d1-a7c8-4acd2b6039de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.view1_images.field_image1
+    - field.field.node.view1_images.field_image2
+    - field.field.node.view1_images.field_image3
+    - image.style.medium
+    - node.type.view1_images
+  module:
+    - ds
+    - image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_3col_equal_width
+      library: ds/ds_3col_equal_width
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          middle: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_image1
+      middle:
+        - field_image3
+      right:
+        - field_image2
+id: node.view1_images.default
+targetEntityType: node
+bundle: view1_images
+mode: default
+content:
+  field_image1:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: left
+  field_image2:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: medium
+    third_party_settings: {  }
+    type: image_url
+    region: right
+  field_image3:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: medium
+    third_party_settings: {  }
+    type: image_url
+    region: middle
+hidden:
+  links: true

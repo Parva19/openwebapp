@@ -1,0 +1,30 @@
+uuid: a2cc0f23-3329-4ef6-9f04-9ba2bcb5bd0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.feature_sponser
+  module:
+    - system
+    - views
+  theme:
+    - openwebapp1
+id: openwebapp1_views_block__feature_sponser_block_1
+theme: openwebapp1
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:feature_sponser-block_1'
+settings:
+  id: 'views_block:feature_sponser-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

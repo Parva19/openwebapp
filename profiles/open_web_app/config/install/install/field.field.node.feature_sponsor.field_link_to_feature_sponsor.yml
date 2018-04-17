@@ -1,0 +1,23 @@
+uuid: 9d61a89e-5266-4f73-a1bb-fb5be10689af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_feature_sponsor
+    - node.type.feature_sponsor
+  module:
+    - link
+id: node.feature_sponsor.field_link_to_feature_sponsor
+field_name: field_link_to_feature_sponsor
+entity_type: node
+bundle: feature_sponsor
+label: 'link to feature/sponsor'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

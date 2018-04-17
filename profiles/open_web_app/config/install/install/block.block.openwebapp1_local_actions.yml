@@ -1,0 +1,20 @@
+uuid: 21fef572-8fdc-475f-b72b-ff40b5e63d97
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: openwebapp1_local_actions
+theme: openwebapp1
+region: header
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

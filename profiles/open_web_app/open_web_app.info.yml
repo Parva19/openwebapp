@@ -34,6 +34,8 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
+  - default_content
+  - content_default
 themes:
   - seven
   - bootstrap

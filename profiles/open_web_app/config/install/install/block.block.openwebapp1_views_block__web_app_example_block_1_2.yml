@@ -1,0 +1,30 @@
+uuid: 2a89c955-75e8-4b59-bba9-f965110118b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.web_app_example
+  module:
+    - system
+    - views
+  theme:
+    - openwebapp1
+id: openwebapp1_views_block__web_app_example_block_1_2
+theme: openwebapp1
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:web_app_example-block_1'
+settings:
+  id: 'views_block:web_app_example-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

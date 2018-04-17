@@ -1,0 +1,22 @@
+uuid: da7c59b9-bb48-4e91-ad4f-2e7b676a26b1
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: openwebapp1_search
+theme: openwebapp1
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

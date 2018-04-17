@@ -1,0 +1,35 @@
+uuid: 011a5b48-2949-409c-990b-74ebcd6dca6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blogs
+    - node.type.fruits_
+    - node.type.page
+  content:
+    - 'node:fruits_:28b9d976-b157-45cf-8e8a-0ed9bcb71586'
+    - 'node:fruits_:64b12dcb-0bba-4a64-9dda-289b9285541e'
+id: node.page.field_blogs
+field_name: field_blogs
+entity_type: node
+bundle: page
+label: Blogs
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 64b12dcb-0bba-4a64-9dda-289b9285541e
+  -
+    target_uuid: 28b9d976-b157-45cf-8e8a-0ed9bcb71586
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      fruits_: fruits_
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

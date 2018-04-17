@@ -1,0 +1,22 @@
+uuid: ac6dcac8-4ffb-43fa-9b74-80918269b2c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: openwebapp1_help
+theme: openwebapp1
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

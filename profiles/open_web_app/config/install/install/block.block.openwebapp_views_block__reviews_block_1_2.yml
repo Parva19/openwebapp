@@ -1,0 +1,30 @@
+uuid: 53645711-ec67-4066-9749-6c875ddd491e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.reviews
+  module:
+    - system
+    - views
+  theme:
+    - openwebapp
+id: openwebapp_views_block__reviews_block_1_2
+theme: openwebapp
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:reviews-block_1'
+settings:
+  id: 'views_block:reviews-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

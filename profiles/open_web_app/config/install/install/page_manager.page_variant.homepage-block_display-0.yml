@@ -1,0 +1,35 @@
+uuid: 6cac88f4-2bdd-412d-8b1d-2cbb390e8b7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+    - system.menu.footer
+  module:
+    - system
+id: homepage-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    cbea2985-b520-48db-85df-39d07989c857:
+      id: 'system_menu_block:footer'
+      label: Footer
+      provider: system
+      label_display: visible
+      level: 1
+      depth: 0
+      region: bottom
+      weight: 0
+      uuid: cbea2985-b520-48db-85df-39d07989c857
+      context_mapping: {  }
+  id: block_display
+  uuid: 85617521-dfbc-4fcc-87ad-cd36e42ac3e7
+  label: null
+  weight: 0
+  page_title: ''
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

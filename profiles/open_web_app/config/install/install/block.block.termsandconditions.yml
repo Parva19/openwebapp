@@ -1,0 +1,25 @@
+uuid: c5658792-ad16-480d-8af2-9a6c527fb0ed
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_items:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+  module:
+    - block_content
+  theme:
+    - openwebapp1
+id: termsandconditions
+theme: openwebapp1
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+settings:
+  id: 'block_content:ee191229-1b46-46d8-8cd5-eab94f6e313c'
+  label: 'Terms And Conditions'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

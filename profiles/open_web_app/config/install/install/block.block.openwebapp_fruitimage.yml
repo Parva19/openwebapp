@@ -1,0 +1,31 @@
+uuid: 7797ebce-8427-46e2-8f9e-348420382e7d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:4d2a2689-0ee3-4286-9cbe-483569139323'
+  module:
+    - block_content
+    - system
+  theme:
+    - openwebapp
+id: openwebapp_fruitimage
+theme: openwebapp
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:4d2a2689-0ee3-4286-9cbe-483569139323'
+settings:
+  id: 'block_content:4d2a2689-0ee3-4286-9cbe-483569139323'
+  label: 'Intro img.'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

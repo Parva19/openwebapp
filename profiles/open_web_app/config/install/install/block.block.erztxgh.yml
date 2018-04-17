@@ -1,0 +1,25 @@
+uuid: 16e39e26-6ad1-4399-950b-cc2526ff4999
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about:ebb0fa89-965b-4715-bf16-e16a665bedfe'
+  module:
+    - block_content
+  theme:
+    - openwebapp1
+id: erztxgh
+theme: openwebapp1
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ebb0fa89-965b-4715-bf16-e16a665bedfe'
+settings:
+  id: 'block_content:ebb0fa89-965b-4715-bf16-e16a665bedfe'
+  label: erztxgh
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

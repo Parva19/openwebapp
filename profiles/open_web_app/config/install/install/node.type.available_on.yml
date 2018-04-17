@@ -1,0 +1,17 @@
+uuid: 9a52d4f7-89ff-4c53-b1a0-eabca3ceb9f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Available on'
+type: available_on
+description: 'Use available-on  to tell the stores available for application .'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

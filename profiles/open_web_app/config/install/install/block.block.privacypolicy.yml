@@ -1,0 +1,25 @@
+uuid: 6e5b0bbe-60f3-4a23-83a5-66d99d79cbc0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_items:6cc99b36-9238-4725-8dc4-4aebddba9e06'
+  module:
+    - block_content
+  theme:
+    - openwebapp1
+id: privacypolicy
+theme: openwebapp1
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:6cc99b36-9238-4725-8dc4-4aebddba9e06'
+settings:
+  id: 'block_content:6cc99b36-9238-4725-8dc4-4aebddba9e06'
+  label: 'Privacy Policy'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: f9bbd8aa-9c22-4003-a144-3eb3708954e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.view1_images.field_image1
+    - node.type.view1_images
+  module:
+    - user
+id: node.view1_images.teaser
+targetEntityType: node
+bundle: view1_images
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_image1: true

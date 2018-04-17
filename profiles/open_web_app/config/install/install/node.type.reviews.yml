@@ -1,0 +1,17 @@
+uuid: 3e102254-e6c1-4178-947c-4d1d3c665d74
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Reviews
+type: reviews
+description: 'Use  reviews for showing review given by playstore, app store, people etc.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

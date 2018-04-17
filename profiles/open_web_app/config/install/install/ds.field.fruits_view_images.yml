@@ -1,0 +1,17 @@
+id: fruits_view_images
+label: 'fruits view images'
+ui_limit: ''
+properties:
+  block: 'views_block:view_1-block_1'
+  use_block_title: false
+  config:
+    id: 'views_block:view_1-block_1'
+    label: ''
+    provider: views
+    label_display: visible
+    views_label: ''
+    items_per_page: none
+type: block
+type_label: 'Block field'
+entities:
+  block_content: block_content

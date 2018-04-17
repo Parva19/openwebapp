@@ -1,0 +1,4 @@
+name: Content Default
+description: This module have the default content which isto be placed in site.
+core: '8.x'
+type: module

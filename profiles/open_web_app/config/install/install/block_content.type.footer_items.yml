@@ -1,0 +1,8 @@
+uuid: 2bfd4634-9dc0-4746-8713-da6762cc4b54
+langcode: en
+status: true
+dependencies: {  }
+id: footer_items
+label: 'Footer Items'
+revision: 0
+description: 'Use this block to put footer items.'

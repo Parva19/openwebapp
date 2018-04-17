@@ -1,0 +1,30 @@
+uuid: bd223849-4ea2-4bfc-9a36-635ee0d75d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.available_on
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__available_on_block_1_2
+theme: bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:available_on-block_1'
+settings:
+  id: 'views_block:available_on-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

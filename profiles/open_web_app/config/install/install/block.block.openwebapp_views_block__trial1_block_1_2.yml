@@ -1,0 +1,24 @@
+uuid: 542303bd-f933-4920-807f-5079b974c6c1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.trial1
+  module:
+    - views
+  theme:
+    - openwebapp
+id: openwebapp_views_block__trial1_block_1_2
+theme: openwebapp
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:trial1-block_1'
+settings:
+  id: 'views_block:trial1-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '5'
+visibility: {  }

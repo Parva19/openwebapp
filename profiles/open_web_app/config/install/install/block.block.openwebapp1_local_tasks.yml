@@ -1,0 +1,22 @@
+uuid: dbf78b7b-13e7-44d5-8664-5b33f1de10be
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openwebapp1
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: openwebapp1_local_tasks
+theme: openwebapp1
+region: header
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
